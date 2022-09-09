@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.takehomeexcercise.app-mergeDebugResources-4:/layout/activity_listing.xml",
+        "source": "com.takehomeexcercise.app-main-7:/layout/activity_listing.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/activity_main.xml"
+    }
+]

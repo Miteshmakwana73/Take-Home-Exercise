@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color bottom_sheet_bg
+color edittext_bg
+color edittext_hint_color
+color edittext_text_color
+color gray
+color gray_divider
+color gray_lable
+color gray_lable_disable
+color ltgrey
+color purple_200
+color purple_500
+color purple_700
+color red
+color redEnable
+color red_map
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+layout activity_listing
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.TakeHomeExcercise
+xml backup_rules
+xml data_extraction_rules
