@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_start_end_margin">@dimen/_10sdp</dimen>
+    <dimen name="activity_vertical_start_end_margin">@dimen/_10sdp</dimen>
+
+    <!--<dimen name="design_navigation_icon_size" tools:override="true">@dimen/_25sdp</dimen>-->
+    <!--<dimen name="design_navigation_icon_padding" tools:override="true">@dimen/_5sdp</dimen>-->
+
+    <!--TODO : COMMON DIMENS-->
+    <dimen name="btn_text_size">@dimen/_15sdp</dimen>
+    <dimen name="edittext_font_size">@dimen/_14sdp</dimen>
+
+
+    <dimen name="divider">1dp</dimen>
+    <dimen name="header_font_size">@dimen/_14sdp</dimen>
+
+    <!--TODO : auto adjust text size -->
+    <dimen name="feed_header_font_size">@dimen/_30ssp</dimen>
+    <dimen name="feed_header_font_max_size">@dimen/_60ssp</dimen>
+
+    <!--TODO : auto adjust text size -->
+    <dimen name="viewpager_next_item_visible">@dimen/_20sdp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">@dimen/_35sdp</dimen>
+    <dimen name="shadow_shap_radius">9dp</dimen>
+</resources>

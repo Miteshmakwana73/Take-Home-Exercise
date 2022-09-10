@@ -11,6 +11,10 @@ import androidx.hilt.lifecycle.ViewModelFactoryModules_FragmentModule_ProvideFac
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
+import com.takehomeexcercise.core.BaseActivity;
+import com.takehomeexcercise.ui.activity.SplashActivity;
+import com.takehomeexcercise.ui.viewmodel.ListingViewModel;
+import com.takehomeexcercise.ui.viewmodel.ListingViewModel_HiltModules_KeyModule_ProvideFactory;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
 import dagger.hilt.android.internal.builders.ActivityRetainedComponentBuilder;
@@ -139,6 +143,10 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
         this.activity = activityParam;
       }
 
+      private Set<String> keySetSetOfString() {
+        return Collections.<String>singleton(ListingViewModel_HiltModules_KeyModule_ProvideFactory.provide());
+      }
+
       private ViewModelProvider.Factory provideFactory() {
         return ViewModelFactoryModules_ActivityModule_ProvideFactoryFactory.provideFactory(activity, ApplicationContextModule_ProvideApplicationFactory.provideApplication(DaggerMyApplication_HiltComponents_SingletonC.this.applicationContextModule), Collections.<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>>emptyMap());
       }
@@ -149,8 +157,16 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
       }
 
       @Override
+      public void injectBaseActivity(BaseActivity baseActivity) {
+      }
+
+      @Override
+      public void injectSplashActivity(SplashActivity splashActivity) {
+      }
+
+      @Override
       public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
-        return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(ApplicationContextModule_ProvideApplicationFactory.provideApplication(DaggerMyApplication_HiltComponents_SingletonC.this.applicationContextModule), Collections.<String>emptySet(), new ViewModelCBuilder(), defaultActivityViewModelFactorySetOfViewModelProviderFactory(), Collections.<ViewModelProvider.Factory>emptySet());
+        return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(ApplicationContextModule_ProvideApplicationFactory.provideApplication(DaggerMyApplication_HiltComponents_SingletonC.this.applicationContextModule), keySetSetOfString(), new ViewModelCBuilder(), defaultActivityViewModelFactorySetOfViewModelProviderFactory(), Collections.<ViewModelProvider.Factory>emptySet());
       }
 
       @Override
@@ -197,7 +213,7 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
 
         @Override
         public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
-          return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(ApplicationContextModule_ProvideApplicationFactory.provideApplication(DaggerMyApplication_HiltComponents_SingletonC.this.applicationContextModule), Collections.<String>emptySet(), new ViewModelCBuilder(), ActivityCImpl.this.defaultActivityViewModelFactorySetOfViewModelProviderFactory(), defaultFragmentViewModelFactorySetOfViewModelProviderFactory());
+          return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(ApplicationContextModule_ProvideApplicationFactory.provideApplication(DaggerMyApplication_HiltComponents_SingletonC.this.applicationContextModule), ActivityCImpl.this.keySetSetOfString(), new ViewModelCBuilder(), ActivityCImpl.this.defaultActivityViewModelFactorySetOfViewModelProviderFactory(), defaultFragmentViewModelFactorySetOfViewModelProviderFactory());
         }
 
         @Override
@@ -268,13 +284,43 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
     }
 
     private final class ViewModelCImpl extends MyApplication_HiltComponents.ViewModelC {
+      private volatile Provider<ListingViewModel> listingViewModelProvider;
+
       private ViewModelCImpl(SavedStateHandle savedStateHandle) {
 
       }
 
+      private Provider<ListingViewModel> listingViewModelProvider() {
+        Object local = listingViewModelProvider;
+        if (local == null) {
+          local = new SwitchingProvider<>(0);
+          listingViewModelProvider = (Provider<ListingViewModel>) local;
+        }
+        return (Provider<ListingViewModel>) local;
+      }
+
       @Override
       public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-        return Collections.<String, Provider<ViewModel>>emptyMap();
+        return Collections.<String, Provider<ViewModel>>singletonMap("com.takehomeexcercise.ui.viewmodel.ListingViewModel", (Provider) listingViewModelProvider());
+      }
+
+      private final class SwitchingProvider<T> implements Provider<T> {
+        private final int id;
+
+        SwitchingProvider(int id) {
+          this.id = id;
+        }
+
+        @SuppressWarnings("unchecked")
+        @Override
+        public T get() {
+          switch (id) {
+            case 0: // com.takehomeexcercise.ui.viewmodel.ListingViewModel 
+            return (T) new ListingViewModel();
+
+            default: throw new AssertionError(id);
+          }
+        }
       }
     }
   }

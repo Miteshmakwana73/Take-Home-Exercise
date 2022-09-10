@@ -1,6 +1,9 @@
 package com.takehomeexcercise;
 
 import androidx.hilt.lifecycle.ViewModelFactoryModules;
+import com.takehomeexcercise.core.BaseActivity_GeneratedInjector;
+import com.takehomeexcercise.ui.activity.SplashActivity_GeneratedInjector;
+import com.takehomeexcercise.ui.viewmodel.ListingViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -138,6 +141,7 @@ public final class MyApplication_HiltComponents {
   @Subcomponent(
       modules = {
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
+          ListingViewModel_HiltModules.KeyModule.class,
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class
       }
@@ -162,7 +166,9 @@ public final class MyApplication_HiltComponents {
       }
   )
   @ActivityScoped
-  public abstract static class ActivityC implements ActivityComponent,
+  public abstract static class ActivityC implements BaseActivity_GeneratedInjector,
+      SplashActivity_GeneratedInjector,
+      ActivityComponent,
       HiltWrapper_DefaultViewModelFactories_ActivityEntryPoint,
       FragmentComponentManager.FragmentComponentBuilderEntryPoint,
       ViewComponentManager.ViewComponentBuilderEntryPoint,
@@ -173,7 +179,10 @@ public final class MyApplication_HiltComponents {
   }
 
   @Subcomponent(
-      modules = HiltWrapper_HiltViewModelFactory_ViewModelModule.class
+      modules = {
+          HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
+          ListingViewModel_HiltModules.BindsModule.class
+      }
   )
   @ViewModelScoped
   public abstract static class ViewModelC implements ViewModelComponent,

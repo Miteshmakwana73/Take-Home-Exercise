@@ -19,7 +19,33 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_start_end_margin">@dimen/_10sdp</dimen>
+    <dimen name="activity_vertical_start_end_margin">@dimen/_10sdp</dimen>
+    <dimen name="btn_text_size">@dimen/_15sdp</dimen>
+    <dimen name="divider">1dp</dimen>
+    <dimen name="edittext_font_size">@dimen/_14sdp</dimen>
+    <dimen name="feed_header_font_max_size">@dimen/_60ssp</dimen>
+    <dimen name="feed_header_font_size">@dimen/_30ssp</dimen>
+    <dimen name="header_font_size">@dimen/_14sdp</dimen>
+    <dimen name="shadow_shap_radius">9dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">@dimen/_35sdp</dimen>
+    <dimen name="viewpager_next_item_visible">@dimen/_20sdp</dimen>
     <string name="app_name">NASA Gallery App</string>
+    <string name="no_data_found">No Data Found</string>
+    <style name="Theme.Dialog" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
     <style name="Theme.TakeHomeExcercise" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/black</item>
@@ -36,5 +62,29 @@
 
         <item name="android:autofilledHighlight" ns1:targetApi="o">@android:color/transparent</item>
 
+    </style>
+    <style name="graphikBold">
+        <item name="android:fontFamily">@font/graphik_bold</item>
+    </style>
+    <style name="graphikMedium">
+        <item name="android:fontFamily">@font/graphik_medium</item>
+    </style>
+    <style name="graphikRegular">
+        <item name="android:fontFamily">@font/graphik_regular</item>
+    </style>
+    <style name="graphikSemiBold">
+        <item name="android:fontFamily">@font/graphik_semibold</item>
+    </style>
+    <style name="komuTitle">
+        <item name="android:fontFamily">@font/komu_title</item>
+    </style>
+    <style name="robotoBold">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+    <style name="robotoMedium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="robotoRegular">
+        <item name="android:fontFamily">@font/roboto_regular</item>
     </style>
 </resources>

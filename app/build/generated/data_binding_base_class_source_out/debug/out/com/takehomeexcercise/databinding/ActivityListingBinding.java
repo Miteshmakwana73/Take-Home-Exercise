@@ -4,25 +4,56 @@ package com.takehomeexcercise.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.takehomeexcercise.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityListingBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
-  private ActivityListingBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final RelativeLayout lnActionBar;
+
+  @NonNull
+  public final RelativeLayout lnMain;
+
+  @NonNull
+  public final RecyclerView rvImages;
+
+  @NonNull
+  public final TextView tvFeedTitle;
+
+  @NonNull
+  public final TextView tvtitle;
+
+  @NonNull
+  public final View viewSearch;
+
+  private ActivityListingBinding(@NonNull RelativeLayout rootView,
+      @NonNull RelativeLayout lnActionBar, @NonNull RelativeLayout lnMain,
+      @NonNull RecyclerView rvImages, @NonNull TextView tvFeedTitle, @NonNull TextView tvtitle,
+      @NonNull View viewSearch) {
     this.rootView = rootView;
+    this.lnActionBar = lnActionBar;
+    this.lnMain = lnMain;
+    this.rvImages = rvImages;
+    this.tvFeedTitle = tvFeedTitle;
+    this.tvtitle = tvtitle;
+    this.viewSearch = viewSearch;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +74,46 @@ public final class ActivityListingBinding implements ViewBinding {
 
   @NonNull
   public static ActivityListingBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.lnActionBar;
+      RelativeLayout lnActionBar = ViewBindings.findChildViewById(rootView, id);
+      if (lnActionBar == null) {
+        break missingId;
+      }
 
-    return new ActivityListingBinding((ConstraintLayout) rootView);
+      RelativeLayout lnMain = (RelativeLayout) rootView;
+
+      id = R.id.rvImages;
+      RecyclerView rvImages = ViewBindings.findChildViewById(rootView, id);
+      if (rvImages == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFeedTitle;
+      TextView tvFeedTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvFeedTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.tvtitle;
+      TextView tvtitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvtitle == null) {
+        break missingId;
+      }
+
+      id = R.id.viewSearch;
+      View viewSearch = ViewBindings.findChildViewById(rootView, id);
+      if (viewSearch == null) {
+        break missingId;
+      }
+
+      return new ActivityListingBinding((RelativeLayout) rootView, lnActionBar, lnMain, rvImages,
+          tvFeedTitle, tvtitle, viewSearch);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
