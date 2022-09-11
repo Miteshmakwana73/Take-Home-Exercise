@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] /root/.gradle/caches/transforms-3/6bbf7cdbc88a1b8c6d4e8a6fe6941406/transformed/viewbinding-7.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.2] /root/.gradle/caches/transforms-3/9f33916013d954517bb966070ca5bf19/transformed/fragment-ktx-1.5.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.5.1] /root/.gradle/caches/transforms-3/8e04c4a115a105282e9d7e6e2d6fd498/transformed/activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
@@ -61,22 +61,22 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /root/.
 MERGED from [androidx.print:print:1.0.0] /root/.gradle/caches/transforms-3/6f9e2409eaa9a73ec8ffff07ab20f9f7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /root/.gradle/caches/transforms-3/db9092571c971654d10a04b2865a015e/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.31] /root/.gradle/caches/transforms-3/ebd820e168eb413466107912cce1e77f/transformed/dagger-lint-aar-2.31/AndroidManifest.xml:16:1-19:12
-INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:4:5-36
 		INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml
-		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
 		INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml
-		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:1-39:12
 		INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:2:11-69
@@ -85,7 +85,7 @@ ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/Andro
 	android:name
 		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:8:5-34:19
+ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:8:5-37:19
 MERGED from [com.google.android.material:material:1.6.1] /root/.gradle/caches/transforms-3/64486273865f0d00342450fa226d78e2/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] /root/.gradle/caches/transforms-3/64486273865f0d00342450fa226d78e2/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /root/.gradle/caches/transforms-3/e248475acf728405af3a4501bd09d6de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -149,11 +149,17 @@ ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/Andro
 	android:name
 		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.takehomeexcercise.ui.activity.ListingActivity
-ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:31:9-33:40
-	android:exported
-		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:33:13-37
+ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:33:13-49
 	android:name
 		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:32:13-56
+activity#com.takehomeexcercise.ui.activity.ImageDetailActivity
+ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:35:13-60
 uses-sdk
 INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml

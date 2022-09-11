@@ -15,7 +15,7 @@
 11-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:8:5-34:19
+13-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:8:5-37:19
 14        android:name="com.takehomeexcercise.MyApplication"
 14-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:9:9-38
 15        android:allowBackup="true"
@@ -60,33 +60,39 @@
 35            </intent-filter>
 36        </activity>
 37        <activity
-37-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:31:9-33:40
+37-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:31:9-33:52
 38            android:name="com.takehomeexcercise.ui.activity.ListingActivity"
 38-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:32:13-56
-39            android:exported="false" />
-39-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:33:13-37
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-43            android:authorities="com.takehomeexcercise.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+39            android:screenOrientation="portrait" />
+39-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:33:13-49
+40        <activity
+40-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:34:9-36:52
+41            android:name="com.takehomeexcercise.ui.activity.ImageDetailActivity"
+41-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:35:13-60
+42            android:screenOrientation="portrait" />
+42-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:36:13-49
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+46            android:authorities="com.takehomeexcercise.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/5a4f60c32bc46ef76596d607400dd98d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/5a4f60c32bc46ef76596d607400dd98d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+48-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/5a4f60c32bc46ef76596d607400dd98d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-51        </provider>
-52    </application>
-53
-54</manifest>
+50-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/5a4f60c32bc46ef76596d607400dd98d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/5a4f60c32bc46ef76596d607400dd98d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/5a4f60c32bc46ef76596d607400dd98d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

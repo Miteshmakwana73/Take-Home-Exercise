@@ -4,9 +4,11 @@ import android.app.Activity
 import android.content.Context
 import android.content.res.Resources
 import android.util.DisplayMetrics
+import android.util.Log
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
@@ -15,6 +17,8 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 import com.google.android.material.snackbar.Snackbar
 import com.google.gson.Gson
+import java.text.ParseException
+import java.text.SimpleDateFormat
 import java.util.*
 
 /**
@@ -32,7 +36,7 @@ fun Context.toast(message: String) {
 /**
  * toast with duration
  */
-fun Context.toast(message: String, duration : Int) {
+fun Context.toast(message: String, duration: Int) {
     Toast.makeText(this, message, duration).show()
 }
 
@@ -147,8 +151,51 @@ fun Activity.hideKeybord() {
     // inputManager.hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
     val focusedView = this.currentFocus
     if (focusedView != null) {
-        inputManager.hideSoftInputFromWindow(focusedView.windowToken, InputMethodManager.HIDE_NOT_ALWAYS)
+        inputManager.hideSoftInputFromWindow(
+            focusedView.windowToken,
+            InputMethodManager.HIDE_NOT_ALWAYS
+        )
     }
+}
+
+fun getDateFormat(str: String): SimpleDateFormat {
+    return SimpleDateFormat(str, Locale.ENGLISH)
+}
+
+fun String.changeDateFormat(strInput: String, strOutput: String): String {
+    if (length <= 0)
+        return ""
+
+    val inputDTFormat = getDateFormat(strInput)
+    val outputDTFormat = getDateFormat(strOutput)
+
+    return try {
+        outputDTFormat.format(inputDTFormat.parse(this))
+    } catch (e: ParseException) {
+        ""
+    }
+}
+
+
+fun TextView.addReadMoreText(text: String) {
+    try {
+        val readMoreOption = ReadMoreOption.Builder(context)
+            .textLength(2, ReadMoreOption.TYPE_LINE) // OR
+            //.textLength(300, ReadMoreOption.TYPE_CHARACTER)
+            .moreLabel("Read More")
+            .lessLabel("  Read Less")
+            .moreLabelColor(ContextCompat.getColor(context!!, R.color.blue))
+            .lessLabelColor(ContextCompat.getColor(context!!, R.color.blue))
+            .labelUnderLine(false)
+            .expandAnimation(false)
+            .build()
+        readMoreOption.addReadMoreTo(this, text)
+    } catch (e: Exception) {
+        e.printStackTrace()
+        Log.e("addReadMoreText", ": ${e.localizedMessage}");
+    }
+    /*this.text=text
+    ReadMoreMediumTextView().makeTextViewResizable(this,2,"Read More",true)*/
 }
 
 inline fun <reified T : Any> String.gsonConvert(): T = Gson().fromJson(this, T::class.java)

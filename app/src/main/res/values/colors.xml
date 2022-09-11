@@ -20,4 +20,6 @@
     <color name="gray_divider">#252525</color>
     <color name="redEnable">#EB1616</color>
     <color name="bottom_sheet_bg">#1A1A1A</color>
+    <color name="black_transparent">#B31A1A1A</color>
+    <color name="blue">#0008FF</color>
 </resources>

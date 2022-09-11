@@ -1,6 +1,11 @@
 package com.takehomeexcercise.ui.model
 
-class ImageData : ArrayList<ImageData.ImageDataItem>(){
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+class ImageData : ArrayList<ImageData.ImageDataItem>(), Parcelable {
+    @Parcelize
     data class ImageDataItem(
         var copyright: String? = null,
         var date: String = "",
@@ -10,5 +15,5 @@ class ImageData : ArrayList<ImageData.ImageDataItem>(){
         var service_version: String = "",
         var title: String = "",
         var url: String = ""
-    )
+    ): Parcelable
 }

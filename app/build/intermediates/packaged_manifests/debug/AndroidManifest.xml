@@ -36,7 +36,10 @@
         </activity>
         <activity
             android:name="com.takehomeexcercise.ui.activity.ListingActivity"
-            android:exported="false" />
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.takehomeexcercise.ui.activity.ImageDetailActivity"
+            android:screenOrientation="portrait" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

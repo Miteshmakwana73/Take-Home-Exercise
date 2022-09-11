@@ -157,11 +157,11 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
       }
 
       @Override
-      public void injectBaseActivity(BaseActivity baseActivity) {
+      public void injectBaseActivity(BaseActivity arg0) {
       }
 
       @Override
-      public void injectSplashActivity(SplashActivity splashActivity) {
+      public void injectSplashActivity(SplashActivity arg0) {
       }
 
       @Override

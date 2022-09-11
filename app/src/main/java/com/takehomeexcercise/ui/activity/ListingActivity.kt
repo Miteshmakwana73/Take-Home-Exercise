@@ -1,5 +1,6 @@
 package com.takehomeexcercise.ui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.util.SparseArray
@@ -58,6 +59,11 @@ class ListingActivity : BaseActivity() {
                         position: Int
                     ) {
                         //click of recyclerview item
+                        startActivity(
+                            Intent(this@ListingActivity, ImageDetailActivity::class.java)
+                                .putExtra("position", position)
+                                .putExtra("list", mList)
+                        )
                     }
                 }
             )
