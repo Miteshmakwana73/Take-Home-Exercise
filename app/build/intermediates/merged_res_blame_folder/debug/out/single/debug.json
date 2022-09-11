@@ -8,24 +8,20 @@
         "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/raw_image_detail.xml"
     },
     {
-        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/layout_activity_detail.xml.flat",
-        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/activity_detail.xml"
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/layout_activity_listing.xml.flat",
         "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/activity_listing.xml"
     },
     {
-        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/layout_dialog_progress.xml.flat",
         "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/dialog_progress.xml"
-    },
-    {
-        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/drawable-ldpi_ic_back.png.flat",
@@ -64,12 +60,12 @@
         "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/font/roboto_medium.ttf"
     },
     {
-        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-pngs-0:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/font_graphik_bold.otf.flat",
         "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/font/graphik_bold.otf"
+    },
+    {
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-pngs-0:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/drawable_background_gray_circle_half.xml.flat",
@@ -120,16 +116,12 @@
         "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-pngs-0:/drawable-mdpi/ic_back.png"
     },
     {
-        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/drawable-anydpi-v24_ic_back.xml.flat",
-        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-pngs-0:/drawable-anydpi-v24/ic_back.xml"
-    },
-    {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.takehomeexcercise.app-merged_res-5:/layout_raw_image_detail.xml.flat",
-        "source": "com.takehomeexcercise.app-main-7:/layout/raw_image_detail.xml"
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/drawable-anydpi-v24_ic_back.xml.flat",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-pngs-0:/drawable-anydpi-v24/ic_back.xml"
     },
     {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/drawable-xxxhdpi_ic_back.png.flat",
@@ -166,6 +158,10 @@
     {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.takehomeexcercise.app-merged_res-5:/layout_activity_listing.xml.flat",
+        "source": "com.takehomeexcercise.app-main-7:/layout/activity_listing.xml"
     },
     {
         "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.webp.flat",

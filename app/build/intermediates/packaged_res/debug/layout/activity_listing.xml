@@ -52,7 +52,7 @@
         tools:listitem="@layout/raw_image" />
 
     <TextView
-        android:id="@+id/tvFeedTitle"
+        android:id="@+id/tvNoDataFound"
         style="@style/komuTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

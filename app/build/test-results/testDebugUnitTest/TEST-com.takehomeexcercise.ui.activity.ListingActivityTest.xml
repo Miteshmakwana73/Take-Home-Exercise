@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.takehomeexcercise.ui.activity.ListingActivityTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-11T10:54:03" hostname="ES-Mitesh-Linux" time="0.295">
+  <properties/>
+  <testcase name="isListHaveData" classname="com.takehomeexcercise.ui.activity.ListingActivityTest" time="0.294"/>
+  <testcase name="isListNoteHaveData" classname="com.takehomeexcercise.ui.activity.ListingActivityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

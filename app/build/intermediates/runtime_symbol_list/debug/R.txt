@@ -3791,7 +3791,7 @@ int id triangle 0x7f0901dc
 int id tvCopyright 0x7f0901dd
 int id tvDate 0x7f0901de
 int id tvDetails 0x7f0901df
-int id tvFeedTitle 0x7f0901e0
+int id tvNoDataFound 0x7f0901e0
 int id tvTitle 0x7f0901e1
 int id tvtitle 0x7f0901e2
 int id unchecked 0x7f0901e3

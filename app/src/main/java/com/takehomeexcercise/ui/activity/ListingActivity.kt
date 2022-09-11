@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.util.SparseArray
 import androidx.activity.viewModels
+import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
 import com.takehomeexcercise.SCommonItemDecoration
@@ -86,6 +87,14 @@ class ListingActivity : BaseActivity() {
                         Log.i(TAG, "success $list")
                         mList.addAll(list)
                         binding.rvImages.adapter?.notifyDataSetChanged()
+
+                        if(mList.isNotEmpty()) {
+                            binding.rvImages.isVisible = true
+                            binding.tvNoDataFound.isVisible = false
+                        } else {
+                            binding.rvImages.isVisible = false
+                            binding.tvNoDataFound.isVisible = true
+                        }
                     }
                 }
                 Status.ERROR -> {
@@ -97,4 +106,13 @@ class ListingActivity : BaseActivity() {
             }
         }
     }
+
+
+    companion object {
+        fun checkList(list: ArrayList<ImageData.ImageDataItem>): Boolean {
+            return list.isNotEmpty()
+        }
+    }
+
+
 }

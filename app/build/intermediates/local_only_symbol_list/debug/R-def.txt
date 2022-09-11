@@ -62,7 +62,7 @@ id rvImages
 id tvCopyright
 id tvDate
 id tvDetails
-id tvFeedTitle
+id tvNoDataFound
 id tvTitle
 id tvtitle
 id viewSearch

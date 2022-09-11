@@ -30,7 +30,7 @@ public final class ActivityListingBinding implements ViewBinding {
   public final RecyclerView rvImages;
 
   @NonNull
-  public final TextView tvFeedTitle;
+  public final TextView tvNoDataFound;
 
   @NonNull
   public final TextView tvtitle;
@@ -40,13 +40,13 @@ public final class ActivityListingBinding implements ViewBinding {
 
   private ActivityListingBinding(@NonNull RelativeLayout rootView,
       @NonNull RelativeLayout lnActionBar, @NonNull RelativeLayout lnMain,
-      @NonNull RecyclerView rvImages, @NonNull TextView tvFeedTitle, @NonNull TextView tvtitle,
+      @NonNull RecyclerView rvImages, @NonNull TextView tvNoDataFound, @NonNull TextView tvtitle,
       @NonNull View viewSearch) {
     this.rootView = rootView;
     this.lnActionBar = lnActionBar;
     this.lnMain = lnMain;
     this.rvImages = rvImages;
-    this.tvFeedTitle = tvFeedTitle;
+    this.tvNoDataFound = tvNoDataFound;
     this.tvtitle = tvtitle;
     this.viewSearch = viewSearch;
   }
@@ -92,9 +92,9 @@ public final class ActivityListingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvFeedTitle;
-      TextView tvFeedTitle = ViewBindings.findChildViewById(rootView, id);
-      if (tvFeedTitle == null) {
+      id = R.id.tvNoDataFound;
+      TextView tvNoDataFound = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoDataFound == null) {
         break missingId;
       }
 
@@ -111,7 +111,7 @@ public final class ActivityListingBinding implements ViewBinding {
       }
 
       return new ActivityListingBinding((RelativeLayout) rootView, lnActionBar, lnMain, rvImages,
-          tvFeedTitle, tvtitle, viewSearch);
+          tvNoDataFound, tvtitle, viewSearch);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
