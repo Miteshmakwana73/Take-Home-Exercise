@@ -9,6 +9,7 @@ import com.takehomeexcercise.utils.changeDateFormat
 import com.takehomeexcercise.databinding.RawImageDetailBinding
 import com.takehomeexcercise.utils.loadImage
 import com.takehomeexcercise.ui.model.ImageData
+import com.takehomeexcercise.utils.loadImageWithoutCrop
 
 /**
  * Details of image viewpager2 adapter : Show image details list.
@@ -40,7 +41,7 @@ class ImageDetailAdapter(
                 model.date.changeDateFormat("yyyy-MM-dd", "MMM dd, yyyy")
             holder.viewBinding.tvCopyright.text = model.copyright
             holder.viewBinding.tvDetails.addReadMoreText(model.explanation)
-            holder.viewBinding.imgBg.loadImage(model.hdurl)
+            holder.viewBinding.imgBg.loadImageWithoutCrop(model.hdurl)
             holder.itemView.setOnClickListener {
                 viewHolderClicks.onClickItem(model, holder.adapterPosition)
             }

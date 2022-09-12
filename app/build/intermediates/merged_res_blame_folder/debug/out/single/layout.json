@@ -1,26 +1,30 @@
 [
     {
-        "merged": "com.takehomeexcercise.app-mergeDebugResources-4:/layout/activity_image_detail.xml",
-        "source": "com.takehomeexcercise.app-main-7:/layout/activity_image_detail.xml"
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-mergeDebugResources-4:/layout/raw_image_detail.xml",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/raw_image_detail.xml"
     },
     {
-        "merged": "com.takehomeexcercise.app-mergeDebugResources-4:/layout/raw_image.xml",
-        "source": "com.takehomeexcercise.app-main-7:/layout/raw_image.xml"
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-mergeDebugResources-4:/layout/activity_listing.xml",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/activity_listing.xml"
     },
     {
         "merged": "com.takehomeexcercise.app-mergeDebugResources-4:/layout/raw_image_detail.xml",
         "source": "com.takehomeexcercise.app-main-7:/layout/raw_image_detail.xml"
     },
     {
-        "merged": "com.takehomeexcercise.app-mergeDebugResources-4:/layout/activity_listing.xml",
-        "source": "com.takehomeexcercise.app-main-7:/layout/activity_listing.xml"
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-mergeDebugResources-4:/layout/activity_image_detail.xml",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/activity_image_detail.xml"
     },
     {
-        "merged": "com.takehomeexcercise.app-mergeDebugResources-4:/layout/dialog_progress.xml",
-        "source": "com.takehomeexcercise.app-main-7:/layout/dialog_progress.xml"
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-mergeDebugResources-4:/layout/dialog_progress.xml",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/dialog_progress.xml"
     },
     {
-        "merged": "com.takehomeexcercise.app-mergeDebugResources-4:/layout/activity_splash.xml",
-        "source": "com.takehomeexcercise.app-main-7:/layout/activity_splash.xml"
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-mergeDebugResources-4:/layout/raw_image.xml",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/raw_image.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-mergeDebugResources-4:/layout/activity_splash.xml",
+        "source": "/root/.gradle/daemon/7.3.3/com.takehomeexcercise.app-main-7:/layout/activity_splash.xml"
     }
 ]

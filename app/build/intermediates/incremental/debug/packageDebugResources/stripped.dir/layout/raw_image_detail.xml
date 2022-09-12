@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -21,13 +22,13 @@
     <ImageView
         android:id="@+id/imgBg"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/splash_bg"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/splash_bg" />
 
     <View
         android:id="@+id/viewSearch"
@@ -43,34 +44,34 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/_5sdp"
-        android:text="Starburst Galaxy M94 from Hubble"
         android:textColor="@color/white"
         android:textSize="@dimen/_14ssp"
         app:layout_constraintBottom_toTopOf="@id/tvDate"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
-        app:layout_constraintStart_toStartOf="@id/guideline" />
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        tools:text="Starburst Galaxy M94 from Hubble" />
 
     <TextView
         android:id="@+id/tvDate"
         style="@style/graphikMedium"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="11 - Sep - 2022"
         android:textColor="@color/white"
         android:textSize="@dimen/_11ssp"
         app:layout_constraintBottom_toTopOf="@id/tvCopyright"
-        app:layout_constraintStart_toStartOf="@id/tvTitle" />
+        app:layout_constraintStart_toStartOf="@id/tvTitle"
+        tools:text="11 - Sep - 2022" />
 
     <TextView
         android:id="@+id/tvCopyright"
         style="@style/graphikMedium"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Egon Filter"
         android:textColor="@color/white"
         android:textSize="@dimen/_11ssp"
         app:layout_constraintBottom_toTopOf="@id/tvDetails"
-        app:layout_constraintStart_toStartOf="@id/tvTitle" />
+        app:layout_constraintStart_toStartOf="@id/tvTitle"
+        tools:text="Egon Filter" />
 
     <TextView
         android:id="@+id/tvDetails"
@@ -78,11 +79,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:text="Why does this galaxy have a ring of bright blue stars?  Beautiful island universe Messier 94 lies a mere 15 million light-years distant in the northern constellation of the Hunting Dogs (Canes Venatici). A popular target for Earth-based astronomers, the face-on spiral galaxy is about 30,000 light-years across, with spiral arms sweeping through the outskirts of its broad disk. But this Hubble Space Telescope field of view spans about 7,000 light-years across M94's central region. The featured close-up highlights the galaxy's compact, bright nucleus, prominent inner dust lanes, and the remarkable bluish ring of young massive stars. The ring stars are all likely less than 10 million years old, indicating that M94 is a starburst galaxy that is experiencing an epoch of rapid star formation from inspiraling gas. The circular ripple of blue stars is likely a wave propagating outward, having been triggered by the gravity and rotation of a oval matter distributions. Because M94 is relatively nearby, astronomers can better explore details of its starburst ring.    Astrophysicists: Browse 2,000+ codes in the Astrophysics Source Code Library"
         android:textColor="@color/gray"
         android:textSize="@dimen/_11ssp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/tvTitle"
-        app:layout_constraintStart_toStartOf="@id/tvTitle" />
+        app:layout_constraintStart_toStartOf="@id/tvTitle"
+        tools:text="Why does this galaxy have a ring of bright blue stars?  Beautiful island universe Messier 94 lies a mere 15 million light-years distant in the northern constellation of the Hunting Dogs (Canes Venatici). A popular target for Earth-based astronomers, the face-on spiral galaxy is about 30,000 light-years across, with spiral arms sweeping through the outskirts of its broad disk. But this Hubble Space Telescope field of view spans about 7,000 light-years across M94's central region. The featured close-up highlights the galaxy's compact, bright nucleus, prominent inner dust lanes, and the remarkable bluish ring of young massive stars. The ring stars are all likely less than 10 million years old, indicating that M94 is a starburst galaxy that is experiencing an epoch of rapid star formation from inspiraling gas. The circular ripple of blue stars is likely a wave propagating outward, having been triggered by the gravity and rotation of a oval matter distributions. Because M94 is relatively nearby, astronomers can better explore details of its starburst ring.    Astrophysicists: Browse 2,000+ codes in the Astrophysics Source Code Library" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

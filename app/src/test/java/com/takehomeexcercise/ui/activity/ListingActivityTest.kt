@@ -15,7 +15,7 @@ class ListingActivityTest{
         val mList: ArrayList<ImageData.ImageDataItem> =
             arrayListOf(modelData, modelData, modelData, modelData)
 
-        val result = ListingActivity.checkList(mList)
+        val result = ListingActivity.isListNotEmpty(mList)
         assertThat(result).isEqualTo(true)
     }
 
@@ -23,7 +23,7 @@ class ListingActivityTest{
     fun isListNoteHaveData() {
         val mList: ArrayList<ImageData.ImageDataItem> = arrayListOf()
 
-        val result = ListingActivity.checkList(mList)
-        assertThat(result).isEqualTo(false)
+        val result = ListingActivity.isListNotEmpty(mList)
+        assertThat(result).isFalse()
     }
 }

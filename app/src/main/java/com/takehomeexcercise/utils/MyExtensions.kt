@@ -144,6 +144,16 @@ fun ImageView.loadImage(url: String?) {
 }
 
 /**
+ * load image without rounded
+ */
+fun ImageView.loadImageWithoutCrop(url: String?) {
+    Glide.with(context!!).load(if (url.isNullOrBlank()) "error" else url)
+        .placeholder(ContextCompat.getDrawable(this.context, R.drawable.ic_placeholder_image))
+        .error(R.drawable.ic_placeholder_image)
+        .into(this)
+}
+
+/**
  * hide keyboard
  */
 fun Activity.hideKeybord() {

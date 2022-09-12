@@ -109,7 +109,7 @@ class ListingActivity : BaseActivity() {
 
 
     companion object {
-        fun checkList(list: ArrayList<ImageData.ImageDataItem>): Boolean {
+        fun isListNotEmpty(list: ArrayList<ImageData.ImageDataItem>): Boolean {
             return list.isNotEmpty()
         }
     }

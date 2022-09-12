@@ -1,0 +1,40 @@
+09-12 12:44:32.498  6670  6694 I TestRunner: started: initializationError(com.takehomeexcercise.ui.viewmodel.ListingViewModelTest)
+09-12 12:44:32.501  6670  6694 E TestRunner: failed: initializationError(com.takehomeexcercise.ui.viewmodel.ListingViewModelTest)
+09-12 12:44:32.501  6670  6694 E TestRunner: ----- begin exception -----
+09-12 12:44:32.503  6670  6694 E TestRunner: java.lang.RuntimeException: Failed to instantiate test runner class androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
+09-12 12:44:32.503  6670  6694 E TestRunner:
+09-12 12:44:32.503  6670  6694 E TestRunner:
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.throwInitializationError(AndroidJUnit4.java:129)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.loadRunner(AndroidJUnit4.java:121)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.loadRunner(AndroidJUnit4.java:82)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.<init>(AndroidJUnit4.java:56)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.internal.runner.junit4.AndroidAnnotatedBuilder.runnerForClass(AndroidAnnotatedBuilder.java:63)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.internal.runner.AndroidRunnerBuilder.runnerForClass(AndroidRunnerBuilder.java:153)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.internal.runner.TestLoader.doCreateRunner(TestLoader.java:73)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:105)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:804)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:613)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:411)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2210)
+09-12 12:44:32.503  6670  6694 E TestRunner: Caused by: java.lang.reflect.InvocationTargetException
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.loadRunner(AndroidJUnit4.java:112)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	... 17 more
+09-12 12:44:32.503  6670  6694 E TestRunner: Caused by: org.junit.runners.model.InvalidTestClassError: Invalid test class 'com.takehomeexcercise.ui.viewmodel.ListingViewModelTest':
+09-12 12:44:32.503  6670  6694 E TestRunner:   1. Method setUp() should be public
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at org.junit.runners.ParentRunner.validate(ParentRunner.java:525)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:92)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:74)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner.<init>(AndroidJUnit4ClassRunner.java:43)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	at androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner.<init>(AndroidJUnit4ClassRunner.java:48)
+09-12 12:44:32.503  6670  6694 E TestRunner: 	... 20 more
+09-12 12:44:32.503  6670  6694 E TestRunner: ----- end exception -----
+09-12 12:44:32.506  6670  6694 I TestRunner: finished: initializationError(com.takehomeexcercise.ui.viewmodel.ListingViewModelTest)

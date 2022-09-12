@@ -1,0 +1,7 @@
+com.takehomeexcercise.test.app-androidTest-0 /home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/build/generated/res/resValues/androidTest/debug
+com.takehomeexcercise.test.app-androidTest-1 /home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/build/generated/res/rs/androidTest/debug
+com.takehomeexcercise.test.app-mergeDebugAndroidTestResources-2 /home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.takehomeexcercise.test.app-mergeDebugAndroidTestResources-3 /home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.takehomeexcercise.test.app-merged_res-4 /home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/build/intermediates/merged_res/debugAndroidTest
+com.takehomeexcercise.test.app-androidTest-5 /home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/androidTest/res
+com.takehomeexcercise.test.app-androidTestDebug-6 /home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/androidTestDebug/res
