@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.takehomeexcercise.gsonConvert
+import com.takehomeexcercise.utils.gsonConvert
 import com.takehomeexcercise.network.Resource
 import com.takehomeexcercise.ui.model.ImageData
 import dagger.hilt.android.lifecycle.HiltViewModel

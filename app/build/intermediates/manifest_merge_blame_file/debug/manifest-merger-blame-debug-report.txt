@@ -6,70 +6,70 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml
+8-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml
+9-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:6:5-67
-11-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:6:22-64
+11-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:6:5-67
+11-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:8:5-37:19
+13-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:8:5-37:19
 14        android:name="com.takehomeexcercise.MyApplication"
-14-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:9:9-38
+14-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:9:9-38
 15        android:allowBackup="true"
-15-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:10:9-35
+15-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.8.0] /root/.gradle/caches/transforms-3/e7cbc392e32509f6b31f2b19d14fc5ec/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:11:9-65
+17-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:11:9-65
 18        android:debuggable="true"
 19        android:fullBackupContent="@xml/backup_rules"
-19-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:12:9-54
+19-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:12:9-54
 20        android:icon="@mipmap/ic_launcher"
-20-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:13:9-43
+20-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:13:9-43
 21        android:label="@string/app_name"
-21-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:14:9-41
+21-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:14:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:15:9-54
+22-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:15:9-54
 23        android:supportsRtl="true"
-23-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:16:9-35
+23-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:16:9-35
 24        android:theme="@style/Theme.TakeHomeExcercise"
-24-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:17:9-55
+24-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:17:9-55
 25        android:usesCleartextTraffic="true" >
-25-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:18:9-44
+25-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:18:9-44
 26        <activity
-26-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:20:9-29:20
+26-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:20:9-29:20
 27            android:name="com.takehomeexcercise.ui.activity.SplashActivity"
-27-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:21:13-55
+27-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:21:13-55
 28            android:exported="true"
-28-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:22:13-36
+28-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:22:13-36
 29            android:screenOrientation="portrait" >
-29-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:23:13-49
+29-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:23:13-49
 30            <intent-filter>
-30-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:24:13-28:29
+30-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:24:13-28:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:25:17-69
-31-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:25:25-66
+31-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:25:17-69
+31-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:25:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:27:17-77
-33-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:27:27-74
+33-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:27:17-77
+33-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:27:27-74
 34            </intent-filter>
 35        </activity>
 36        <activity
-36-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:31:9-33:52
+36-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:31:9-33:52
 37            android:name="com.takehomeexcercise.ui.activity.ListingActivity"
-37-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:32:13-56
+37-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:32:13-56
 38            android:screenOrientation="portrait" />
-38-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:33:13-49
+38-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:33:13-49
 39        <activity
-39-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:34:9-36:52
+39-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:34:9-36:52
 40            android:name="com.takehomeexcercise.ui.activity.ImageDetailActivity"
-40-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:35:13-60
+40-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:35:13-60
 41            android:screenOrientation="portrait" />
-41-->/home/tops/AndroidStudioProject/Take-Home-Exercise/app/src/main/AndroidManifest.xml:36:13-49
+41-->/home/tops/AndroidStudioProject/Take-Home-ExerciseNew/app/src/main/AndroidManifest.xml:36:13-49
 42
 43        <provider
 43-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/29c1864e6f5d5b76fc39bd0813d91df8/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20

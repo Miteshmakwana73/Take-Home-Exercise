@@ -2,7 +2,7 @@ package com.takehomeexcercise.core
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
-import com.takehomeexcercise.CustomProgressDialog
+import com.takehomeexcercise.utils.CustomProgressDialog
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

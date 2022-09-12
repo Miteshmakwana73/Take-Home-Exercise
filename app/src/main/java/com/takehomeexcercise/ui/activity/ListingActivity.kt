@@ -8,12 +8,12 @@ import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
-import com.takehomeexcercise.SCommonItemDecoration
+import com.takehomeexcercise.utils.SCommonItemDecoration
 import com.takehomeexcercise.core.BaseActivity
 import com.takehomeexcercise.databinding.ActivityListingBinding
-import com.takehomeexcercise.dip2px
+import com.takehomeexcercise.utils.dip2px
 import com.takehomeexcercise.network.Status
-import com.takehomeexcercise.showSnackBarToast
+import com.takehomeexcercise.utils.showSnackBarToast
 import com.takehomeexcercise.ui.adapter.ImagesAdapter
 import com.takehomeexcercise.ui.model.ImageData
 import com.takehomeexcercise.ui.viewmodel.ListingViewModel

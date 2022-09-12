@@ -4,10 +4,10 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.takehomeexcercise.addReadMoreText
-import com.takehomeexcercise.changeDateFormat
+import com.takehomeexcercise.utils.addReadMoreText
+import com.takehomeexcercise.utils.changeDateFormat
 import com.takehomeexcercise.databinding.RawImageDetailBinding
-import com.takehomeexcercise.loadImage
+import com.takehomeexcercise.utils.loadImage
 import com.takehomeexcercise.ui.model.ImageData
 
 /**
